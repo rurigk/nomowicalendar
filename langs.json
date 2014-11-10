@@ -1,0 +1,37 @@
+{
+	"es":{
+		"addevent":"Añadir Evento",
+		"months":{
+			"Jan":"Enero",
+			"Feb":"Febrero",
+			"Mar":"Marzo",
+			"Apr":"Abril",
+			"May":"Mayo",
+			"Jun":"Junio",
+			"Jul":"Julio",
+			"Aug":"Agosto",
+			"Sep":"Septiembre",
+			"Oct":"Octubre",
+			"Nov":"Noviembre",
+			"Dec":"Diciembre"
+		},
+		"days":{
+			"Mon":"Lunes",
+			"Tue":"Martes",
+			"Wed":"Miercoles",
+			"Thu":"Jueves",
+			"Fri":"Viernes",
+			"Sat":"Sabado",
+			"Sun":"Domingo"
+		},
+		"daysmin":{
+			"Mon":"Lun",
+			"Tue":"Mar",
+			"Wed":"Mie",
+			"Thu":"Jue",
+			"Fri":"Vie",
+			"Sat":"Sab",
+			"Sun":"Dom"
+		}
+	}
+}

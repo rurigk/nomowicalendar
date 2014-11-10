@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('fonts/fontawesome-webfont.eot?v=4.1.0');
+	src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+	font-weight: normal;font-style: normal;
+}
+.l{float: left;}
+.r{float: right;}
+.abs{position: absolute;}
+.wh{width: 100%;height: 100%;}
+.bz{box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;}
+.nosel{-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;cursor: default;}
+*{margin: 0px;font-family: 'FontAwesome', sans-serif;}
+body{
+	background-color: #FFF;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.head{
+	background-color: #4ECDC4;
+	width: 100%;
+	height: 180px;
+	padding: 40px 20px 10px 20px;
+}
+.calcont{padding: 14px 10px 10px 10px;}
+.file{
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+}
+.col{
+	float: left;
+	text-align: center;
+	width: 14.285714286%;
+	padding: 5px 0px 5px 0px;
+	color: #222;
+}
+.col[e="0"]{color: #999;}
+.col[e="2"]{background-color: #CCC;}
+.file.fl > .col{color: #E66B6B;}
+
+.h-m{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	color: #FFF;
+}
+#n-mon{font-size: 40px;}
+#n-year{font-weight: bold;}
+#addevent{
+	color: #FFF;
+	padding: 8px 10px 8px 10px;
+	background-color: rgba(0,0,0,0.15);
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+}
+#addevent:active{background-color: rgba(0,0,0,0.2);}
+.prev-n{
+	background: url(l.png) center no-repeat;
+	width: 18px;
+	height: 40px;
+	position: absolute;
+	left: 20px;
+	top: 39px;
+}
+.next-n{
+	background: url(r.png) center no-repeat;
+	width: 18px;
+	height: 40px;
+	position: absolute;
+	right: 20px;
+	top: 39px;
+}
+.ngr:hover{background-color: rgba(0,0,0,0.15);}
