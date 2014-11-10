@@ -75,7 +75,9 @@ function displayDays(){
 function getNDays(m){
 	gfd = new Date();
 	dt=new Date(gfd.getFullYear(), gfd.getMonth() + calendar.monthextra, 1);
-	if(isEven(m)){return 31;}else if(m == 1){
+	if(m == 0 || m == 2 || m == 4 || m == 6 || m == 7 || m == 9 || m == 11){
+		return 31;
+	}else if(m == 1){
 		if(isBisiest(dt.getFullYear())){return 29;}else{return 28;}
 	}else{return 30;}
 }
